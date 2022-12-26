@@ -1,10 +1,14 @@
 import React from "react";
-import {Text, View} from "react-native";
+import {StyleSheet, Text, View, StatusBar} from "react-native";
+import {Container, Titulo} from "./src/styles";
+
+
 
 export default function App(){
-  return(
-      <View style={styles.container}>
-        <Text>TESTE OK123</Text>
-      </View>
-  )
+    return(
+        <Container>
+            <StatusBar backgroundColor="transparent" barStyle="light-content" translucent={true}/>
+            <Titulo>Sujeito Programador</Titulo>
+        </Container>
+    )
 }
