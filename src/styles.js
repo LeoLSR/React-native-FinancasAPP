@@ -4,7 +4,7 @@ export const Container = styled.View `
 
     flex: 1;
     background-color: #0b3b80;
-    padding-top: ${ (getStatusBarHeight())};
+    padding-top: ${0+getStatusBarHeight()};
 
 `
 

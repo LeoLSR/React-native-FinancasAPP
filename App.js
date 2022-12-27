@@ -1,14 +1,20 @@
+import 'react-native-gesture-handler'
+
 import React from "react";
 import {StyleSheet, Text, View, StatusBar} from "react-native";
-import {Container, Titulo} from "./src/styles";
+import {NavigationContainer} from "@react-navigation/native";
+import AuthProvider from "./src/contexts/auth";
+import Routes from "./src/routes";
 
 
+export default function App() {
+    return (
+        <NavigationContainer>
+            <AuthProvider>
+                <StatusBar backgroundColor="#377554" barStyle="light-content"/>
+                <Routes/>
+            </AuthProvider>
 
-export default function App(){
-    return(
-        <Container>
-            <StatusBar backgroundColor="transparent" barStyle="light-content" translucent={true}/>
-            <Titulo>Sujeito Programador</Titulo>
-        </Container>
+        </NavigationContainer>
     )
 }
