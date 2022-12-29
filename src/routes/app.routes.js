@@ -16,12 +16,12 @@ function AppRoutes(){
 
             drawerStyle: {
               fontWeight: 'bold',
-              backgroundColor: '#171717',
+              backgroundColor: 'rgba(255,241,241,0.96)',
 
             },
-            drawerActiveTintColor:'#FFF',
-            drawerActiveBackgroundColor: '#00b94a',
-            drawerInactiveTintColor: '#DDD',
+            drawerActiveTintColor:'#f0f5ff',
+            drawerActiveBackgroundColor: 'rgba(89,65,255,0.73)',
+            drawerInactiveTintColor: 'rgba(0,0,0,0.7)',
             drawerItemStyle:{
               marginVertical: 5,
             }

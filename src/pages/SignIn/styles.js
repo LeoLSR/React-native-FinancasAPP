@@ -2,7 +2,7 @@ import styled from "styled-components/native";
 
     export const Background = styled.View`
       flex: 1;
-      background-color: rgba(98, 178, 49, 0.49);
+      background-color: #130560;
 
     `;
     export const Container = styled.KeyboardAvoidingView`
@@ -21,23 +21,23 @@ import styled from "styled-components/native";
     export const Input = styled.TextInput.attrs({
         placeholderTextColor: 'rgba(0,0,0,0.45)'
     })`
-      background-color: rgba(255, 255, 255, 0.66);
-      width: 90%;
-      font-size: 17px;
-      color: #020202;
-      margin-bottom: 15px;
-      padding: 10px;
-      border-radius: 7px;
+        background-color: rgb(255, 255, 255);
+        width: 90%;
+        font-size: 17px;
+        color: #020202;
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 7px;
     `;
 
     export const SubmitButton = styled.TouchableOpacity`
-      align-items: center;
-      justify-content: center;
-      background-color: #00b94a;
-      width: 90%;
-      height: 45px;
-      border-radius: 7px;
-      margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+        background-color: #27ddf5;
+        width: 90%;
+        height: 45px;
+        border-radius: 7px;
+        margin-top: 10px;
     `;
     export const SubmitText = styled.Text`
       font-size: 20px;
@@ -50,8 +50,8 @@ import styled from "styled-components/native";
     
     `;
     export const LinkText = styled.Text`
-      color: #1d380b;
+        color: #adf8ff;
 
     `;
 
-    
+

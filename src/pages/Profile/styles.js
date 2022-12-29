@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.View`
 flex: 1;
-  background-color: #131313;
+  background-color: #130560;
   align-items: center;
 `;
 export const Nome = styled.Text`

@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Backgroud = styled.View`
-flex: 1;
-background-color: #131313;
-  
+  flex: 1;
+  background-color: #130560;
+
 
 `;
 

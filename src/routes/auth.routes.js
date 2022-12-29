@@ -22,7 +22,7 @@ function AuthRoutes(){
                 component={SignUp}
                 options={{
                     headerStyle:{
-                        backgroundColor:'#377554',
+                        backgroundColor:'#1483f1',
                         borderBottomWidth: 4,
                         borderBottomColor: '#00b94a'
                     },
