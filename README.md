@@ -22,3 +22,6 @@ npx expo install react-native-screens react-native-safe-area-context
 
 npm install react-native-screens react-native-safe-area-context --force
 
+![2](https://user-images.githubusercontent.com/107216432/210096611-8161af02-9fcf-49c5-bca1-abcb85d9d7c1.png)
+
+![LOGIN 1 ](https://user-images.githubusercontent.com/107216432/210096618-e488a232-69f1-4d29-ad3f-48e0b5a51073.png)
